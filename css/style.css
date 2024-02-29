@@ -1,0 +1,41 @@
+/* BARRA */
+@font-face {
+    font-family: boca;
+    src: url(../Recursos/college.ttf);
+}
+
+.naveg{display: flex; flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(4, 4, 51);
+    width: 100vw;
+    height: 95px;}
+
+.lista {
+    display: flex;
+}
+
+.lista li {
+    height: 13vh;
+    color: goldenrod;
+    padding: 30px;
+    list-style: none;
+    font-family: boca;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.lista li:hover {
+    background-color: goldenrod;
+    color: white;
+    transition: .2s;
+    border: 1px solid white;
+    cursor: pointer
+}
+
+.escudo_barra {
+    width: 90px;
+   
+}
+
+.cabj{color: goldenrod; font-size: 60px; font-family: boca; font-weight: bolder;}
+
