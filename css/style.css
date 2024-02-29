@@ -1,41 +1,144 @@
-/* BARRA */
+/* HEADER */
 @font-face {
     font-family: boca;
     src: url(../Recursos/college.ttf);
 }
 
-.naveg{display: flex; flex-direction: row;
+.naveg {
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     background-color: rgb(4, 4, 51);
     width: 100vw;
-    height: 95px;}
+    height: 80px;
+}
 
 .lista {
     display: flex;
 }
 
 .lista li {
-    height: 13vh;
+    height: 11vh;
     color: goldenrod;
     padding: 30px;
     list-style: none;
     font-family: boca;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bolder;
 }
 
 .lista li:hover {
     background-color: goldenrod;
     color: white;
-    transition: .2s;
-    border: 1px solid white;
+    transition: .6s;
+    border: 1.5px solid white;
     cursor: pointer
+}
+
+.login {
+    width: 60px;
+    display: none;
 }
 
 .escudo_barra {
     width: 90px;
-   
+
 }
 
-.cabj{color: goldenrod; font-size: 60px; font-family: boca; font-weight: bolder;}
 
+.cabj {
+    color: goldenrod;
+    font-size: 60px;
+    font-family: boca;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+
+.navbar {
+    background-color: goldenrod;
+    color: rgb(4, 4, 51);
+    font-weight: bolder;
+}
+
+.navbar div ul li:hover {
+    text-decoration: underline;
+    background-color: white;
+    color: rgb(4, 4, 51);
+    transition: 0.3s;
+}
+
+.contacto {
+    list-style: none;
+    color: rgb(4, 4, 51);
+    font-weight: bolder;
+    font-family: boca;
+}
+
+.dropdown-menu li a:hover {
+    background-color: goldenrod;
+    color: rgb(4, 4, 51);
+}
+
+@media (max-width:500px) {
+    .c {
+        background-color: rgb(4, 4, 51);
+    }
+
+    .c li a {
+        color: white;
+    }
+
+    .navbar-toggler {
+        background-color: white;
+    }
+
+    .p_login {
+        display: none;
+    }
+
+    .login {
+        display: block;
+        margin: 10px;
+    }
+
+    .card-body {
+        width: 100vw;
+    }
+
+}
+
+/* MAIN */
+.s1 {
+    background-color: darkblue; width: auto; height: auto;
+}
+
+.s2 {
+    background-color: rgb(224, 195, 121); width: auto;
+}
+
+.titulos2 {
+    font-family: boca;
+    color: darkblue;
+    font-size: 45px;
+    padding: 10px;
+}
+
+.titulos {
+    font-family: boca;
+    color: goldenrod;
+    font-size: 45px;
+    padding: 10px;
+}
+
+.btn-primary {
+    background-color: rgb(4, 4, 51);
+    border: 1px solid white;
+}
+
+.btn-primary:hover {
+    background-color: goldenrod;
+}
+
+.main{display: flex;flex-direction: row; justify-content: space-around;}
+.s2 ul li{ color: rgb(4, 4, 51); list-style: none; font-size: 20px;} 
+.img {width: 250px;}
